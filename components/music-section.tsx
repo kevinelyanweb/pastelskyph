@@ -70,9 +70,8 @@ export default function Music() {
       <Image
         src="/pastelsky-music.jpg" // Place image inside `public/` folder
         alt="Background"
-        layout="fill"
-        objectFit="cover"
-        className="absolute inset-0 z-0"
+        fill
+        className="absolute inset-0 z-0 object-cover object-[top_center] sm:object-center"
       />
 
       <div className="container mx-auto px-4 z-20" ref={ref}>

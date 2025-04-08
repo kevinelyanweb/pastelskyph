@@ -72,7 +72,7 @@ export default function Navbar({ onNavigate }: NavbarProps) {
 
               <nav>
                 <ul className="flex space-x-8">
-                  {["Music", "Members", "Contact"].map((item) => (
+                  {["Music", "About", "Contact"].map((item) => (
                     <motion.li
                       key={item}
                       whileHover={{ scale: 1.1 }}
