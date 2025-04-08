@@ -2,11 +2,10 @@
 
 import type React from "react";
 import { useRef } from "react";
-import Navbar from "@/components/navbar";
-import Hero from "@/components/hero-section";
-import Music from "@/components/music-section";
-
-import Contact from "@/components/contact-section";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/HeroSection";
+import Music from "@/components/MusicSection";
+import Contact from "@/components/ContactSection";
 
 export default function Home() {
   const heroRef = useRef<HTMLDivElement | null>(null);
